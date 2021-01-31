@@ -1,3 +1,4 @@
+
 #내일 와서 풀자ㅎㅎ
 #그냥 스택 
 stack=[]
@@ -12,3 +13,6 @@ stack.append(4)
 stack.pop()
 
 print(stack)
+
+#내일 와서 풀자ㅎㅎ
+
