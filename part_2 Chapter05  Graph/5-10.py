@@ -2,6 +2,7 @@ a,b=map(int,input().split())
 
 graph=[]
 for i in range(a):
+<<<<<<< HEAD
   graph.append(list(map(int,input().split())))
   
 result=0
@@ -29,3 +30,9 @@ for i in range(a):
 
 
 print(result)
+=======
+  graph.append(list(map(int,input())))
+
+visted=[False]*(a*b)
+
+>>>>>>> 5de648917941d08b7a95fbf6fe79576f03b91d48
