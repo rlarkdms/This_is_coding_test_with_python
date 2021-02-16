@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 #음식이 있고 회전판에 먹어야할 음식 N개가 있음.
 #잠만 그럼 food_times이라고 보는 배열에서 먹고 그냥 끝내는거 아니야?
@@ -40,3 +41,8 @@ def solution(food_times, k):
     return answer
 
 solution(food_times,k)
+=======
+#무지의 먹방 라이브~~~
+#무지 조아
+#내일 풀자~_~
+>>>>>>> 2478b550bcb9ad9371ea1240dddcd21b4ad94e4e
