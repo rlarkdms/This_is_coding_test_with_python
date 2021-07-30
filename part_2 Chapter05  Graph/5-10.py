@@ -2,7 +2,7 @@ a,b=map(int,input().split())
 
 graph=[]
 for i in range(a):
-<<<<<<< HEAD
+
   graph.append(list(map(int,input().split())))
   
 result=0
