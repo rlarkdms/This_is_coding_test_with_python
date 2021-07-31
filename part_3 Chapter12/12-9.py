@@ -66,3 +66,6 @@ def solution(s):
         count=1
     
     return min(number)
+
+
+#아니 이거 지금 보니까 코드가 엉망진창이네...
