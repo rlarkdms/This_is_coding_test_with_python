@@ -2,7 +2,7 @@ n=int(input())
 
 arr=list(map(int,input().split()))
 
-<<<<<<< HEAD
+
 #최댓값이 나올려면 일단 정렬을 하고 
 result=0
 stand=0
@@ -35,7 +35,7 @@ print(result)
 #   result+=1
   
 # print(result)
-=======
+
 #아니 최솟값도 아니고 최댓값인데...
 #최댓값이 나올려면 일단 정렬을 하고 
 result=0
@@ -57,4 +57,3 @@ while True:
   stand = stand + arr[stand]
 
 print(result)
->>>>>>> 1e84f1dcb533bea5deb85ef2b4dab88f091a0413
