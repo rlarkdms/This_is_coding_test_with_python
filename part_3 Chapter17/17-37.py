@@ -7,7 +7,8 @@
 
 #그냥 플로워셜 알고리즘....
 #엥? 이게 시간초과라고?
-#도대체 시간 초과가 어디에서 나는거야...?
+#도대체 시간 초과가 어디에서 나는거야...? -> sys.stdin.readline()이 문제였다.
+import sys
 n=int(input())
 m=int(input())
 
@@ -17,7 +18,7 @@ for i in range(1,n+1):#0으로 셋
     graph[i][i]=0
 
 for i in range(m):#간선 컴온
-    a,b,c=map(int,input().split())
+    a,b,c=map(int,sys.stdin.readline().split())
     graph[a][b]=min(graph[a][b],c)
 
 
